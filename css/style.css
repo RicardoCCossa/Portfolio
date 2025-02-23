@@ -4,6 +4,7 @@
 }
 
 body {
+    
     height: 100vh;
     box-sizing: border-box;
     background-color: black;
@@ -12,4 +13,17 @@ body {
 
 .titulo-principal {
     color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    background-color: rgb(170, 221, 224);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
