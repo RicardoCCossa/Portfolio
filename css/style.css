@@ -10,12 +10,30 @@ body{
     color: #F6F6F6;
 }
 
+.cabecalho__menu__link {
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: #007bff;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .titulo-destaque{
     color: #22D4FD;
 }
 
 .apresentacao{
-    margin: 10%;
+    /* margin: 10%; */
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
