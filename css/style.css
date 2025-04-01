@@ -3,6 +3,23 @@
     padding: 0;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 body{
    /* height: 100vh; */
     box-sizing: border-box;
@@ -10,23 +27,9 @@ body{
     color: #F6F6F6;
 }
 
-.cabecalho__menu__link {
-    font-size: 18px;
-    color: #333;
-    margin: 0 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
 
-.cabecalho__menu__link:hover {
-    color: #007bff;
-}
 
-.cabecalho__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .titulo-destaque{
     color: #22D4FD;
 }
